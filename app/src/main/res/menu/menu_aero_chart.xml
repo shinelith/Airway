@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_aero_chart_vfr"
+        android:title="@string/menu_aero_chart_vfr" />
+
+    <item
+        android:id="@+id/menu_aero_chart_ifr"
+        android:title="@string/menu_aero_chart_ifr" />
+</menu>

@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <it.gmariotti.cardslib.library.view.CardListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/max_height_header"
+        android:elevation="@dimen/elevation"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/airport"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/min_height_textheader_materiallike"
+            android:layout_alignBottom="@+id/header_image"
+            android:orientation="vertical"
+            android:elevation="6dp"
+            android:layout_gravity="bottom">
+
+            <include
+                layout="@layout/part_airport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

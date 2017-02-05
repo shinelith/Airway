@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/route_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/ic_arrow_right" />
+
+        <TextView
+            android:id="@+id/departure_icao"
+            style="@style/CardPrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/route_img"
+            android:singleLine="false"
+            android:text="RJTT" />
+
+        <TextView
+            android:id="@+id/departure_iata"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure_icao"
+            android:layout_toStartOf="@+id/route_img"
+            android:text="HND"
+            android:textColor="@color/secondaryDarkTextColor" />
+
+        <TextView
+            android:id="@+id/departure_name"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure_iata"
+            android:layout_toStartOf="@+id/route_img"
+            android:text="东京国际空港" />
+
+        <TextView
+            android:id="@+id/departure_country"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure_name"
+            android:layout_toStartOf="@+id/route_img"
+            android:text="日本" />
+
+        <TextView
+            android:id="@+id/destination_icao"
+            style="@style/CardPrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/departure_icao"
+            android:layout_toEndOf="@+id/route_img"
+            android:text="RJAA" />
+
+        <TextView
+            android:id="@+id/destination_name"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/departure_name"
+            android:layout_toEndOf="@+id/route_img"
+            android:text="成田国际空港" />
+
+        <TextView
+            android:id="@+id/destination_country"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/departure_country"
+            android:layout_toEndOf="@+id/route_img"
+            android:text="日本" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/departure_country"
+            android:layout_centerHorizontal="true"
+            android:text="15321NM"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/destination_iata"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/departure_iata"
+            android:layout_toEndOf="@+id/route_img"
+            android:text="NRT"
+            android:textColor="@color/secondaryDarkTextColor" />
+
+    </RelativeLayout>
+</RelativeLayout>

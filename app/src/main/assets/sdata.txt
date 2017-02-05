@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+body { font-family: verdana; font-size: 12 }
+table { font-family: verdana; font-size: 12; border-collapse:collapse }
+td { font-family: verdana; font-size: 12; border:solid black 0.1pt; padding:3pt }
+</style>
+<title>RouteFinder - KSFO - ZSPD - Not for real world navigation</title>
+</head>
+<body>
+<font size=+1 color=#0000FF><a href=./><b>RouteFinder</b></a></font><br><i>Route generator for PC flight simulation use - <b>NOT FOR REAL WORLD NAVIGATION</b></i><br>
+(C)2005-2007 ASA srl - Italy
+<hr>
+STAR: can't locate fix SAKOT<br>Computed route from <b>SAN FRANCISCO INTL</b> (KSFO, KS) to <b>SHANGHAI / PUDONG</b> (ZSPD, ZS): 70 fixes, 5682.2 nautical miles<br><br><tt>Cruise altitude between FL330 and FL330<br> <b>KSFO</b> (0.0nm) -SID->   <b>RBL</b> (149.0nm) -J1->    <b>HANDY</b> (280.2nm) -J1->   <br> <b>OED</b> (295.2nm) -J501->  <b>HQM</b> (568.6nm) -J501->  <b>WAPTO</b> (600.3nm) -J501-> <br> <b>TOU</b> (652.5nm) -J523->  <b>INHAM</b> (708.3nm) -J523->  <b>YZT</b> (831.0nm) -J523-> <br> <b>YZP</b> (1056.3nm) -TR19->  <b>FRIED</b> (1143.4nm) -J804R->  <b>EEDEN</b> (1296.9nm) -J804R-> <br> <b>SNOUT</b> (1493.3nm) -J804R->  <b>MDO</b> (1663.6nm) -J179->  <b>ENA</b> (1825.6nm) -J179-> <br> <b>AKGAS</b> (1930.7nm) -J179->  <b>SQA</b> (1958.6nm) -J179->  <b>ANI</b> (2076.5nm) -J179-> <br> <b>SMA</b> (2184.6nm) -J179->  <b>ENM</b> (2239.6nm) -G583->  <b>MARCC</b> (2653.1nm) -G583-> <br> <b>BESAT</b> (2738.1nm) -G583->  <b>NILAR</b> (3113.2nm) -G583->  <b>BALUB</b> (3160.6nm) -B804-> <br> <b>MURTA</b> (3279.9nm) -B804->  <b>UK</b> (3315.4nm) -B804->  <b>OSMOR</b> (3518.3nm) -B804-> <br> <b>TOSNO</b> (3534.3nm) -B804->  <b>BANIT</b> (3587.1nm) -B804->  <b>KORES</b> (3772.7nm) -B804-> <br> <b>GIRAN</b> (3859.2nm) -B962->  <b>OLAMA</b> (3909.2nm) -B962->  <b>PIRAL</b> (3974.8nm) -B962-> <br> <b>BENOK</b> (4050.5nm) -B962->  <b>EMGOL</b> (4070.7nm) -B962->  <b>DITOR</b> (4190.2nm) -B233-> <br> <b>OLUTA</b> (4228.5nm) -B233->  <b>RUTAL</b> (4263.6nm) -B233->  <b>TUTIB</b> (4300.7nm) -B233-> <br> <b>ODONI</b> (4343.4nm) -B233->  <b>BULOD</b> (4369.9nm) -B233->  <b>TUPNA</b> (4375.8nm) -B233-> <br> <b>NITIN</b> (4395.1nm) -B233->  <b>ERONO</b> (4466.3nm) -B233->  <b>DIRUL</b> (4510.8nm) -B233-> <br> <b>ORTEP</b> (4550.4nm) -B233->  <b>ASMER</b> (4602.4nm) -B233->  <b>ODIBA</b> (4624.6nm) -B233-> <br> <b>MANIT</b> (4651.5nm) -B233->  <b>LURED</b> (4678.7nm) -B233->  <b>NULAR</b> (4784.8nm) -B467-> <br> <b>TONIN</b> (4897.9nm) -B467->  <b>KANSU</b> (4946.5nm) -B467->  <b>MALSO</b> (4999.8nm) -B467-> <br> <b>TENAS</b> (5019.9nm) -Y579->  <b>AGSUS</b> (5088.0nm) -A586->  <b>BULGA</b> (5152.3nm) -Y579-> <br> <b>PSN</b> (5215.6nm) -A586->  <b>TOPAX</b> (5248.3nm) -Y579->  <b>GOSBO</b> (5294.7nm) -A586-> <br> <b>MAKET</b> (5325.5nm) -Y579->  <b>CJU</b> (5373.0nm) -B576->  <b>SOSDO</b> (5397.4nm) -B576-> <br> <b>SAMLO</b> (5427.0nm) -B576->  <b>NIRAT</b> (5457.3nm) -A593->  <b>PONIK</b> (5471.7nm) -A593-> <br> <b>SADLI</b> (5513.0nm) -A593->  <b>LAMEN</b> (5565.7nm) -A593->  <b>AKARA</b> (5592.1nm) -STAR-> <br> <b>ZSPD</b> (5682.2nm)         </tt></p>Details:<hr><p><pre>ID      FREQ   TRK   DIST   Coords                       Name/Remarks
+KSFO             0      0   N37&deg;37'07.74" W122&deg;22'31.54" SAN FRANCISCO INTL
+RBL     115.7  355    149   N40&deg;05'56.07" W122&deg;14'10.86" RED BLUFF
+HANDY          340    131   N42&deg;14'06.89" W122&deg;50'28.07" HANDY
+OED     113.6  339     15   N42&deg;28'46.46" W122&deg;54'46.56" ROGUE VALLEY
+HQM     117.7  341    273   N46&deg;56'49.34" W124&deg;08'57.36" HOQUIAM
+WAPTO          344     32   N47&deg;28'19.54" W124&deg;13'50.38" WAPTO
+TOU     112.2  332     52   N48&deg;17'59.63" W124&deg;37'37.35" TATOOSH
+INHAM          313     56   N49&deg;03'07.77" W125&deg;27'18.25" INHAM
+YZT     112    312    123   N50&deg;41'02.94" W127&deg;21'55.12" PORT HARDY
+YZP     114.1  303    225   N53&deg;15'07.80" W131&deg;48'25.46" SANDSPIT
+FRIED          299     87   N54&deg;13'18.77" W133&deg;37'56.81" FRIED
+EEDEN          299    153   N55&deg;53'58.53" W137&deg;00'05.62" EEDEN
+SNOUT          296    196   N57&deg;53'26.38" W141&deg;45'19.03" SNOUT
+MDO     115.3  291    170   N59&deg;25'18.49" W146&deg;21'00.05" MIDDLETON ISLAND
+ENA     117.6  286    162   N60&deg;36'52.92" W151&deg;11'42.87" KENAI
+AKGAS          274    105   N61&deg;00'33.43" W154&deg;41'32.62" AKGAS
+SQA     117.2  272     28   N61&deg;05'54.88" W155&deg;38'04.48" SPARREVOHN
+ANI     359    277    118   N61&deg;35'24.60" W159&deg;35'52.47" ANIAK
+SMA     230    280    108   N62&deg;03'33.79" W163&deg;16'54.82" ST MARYS
+ENM     117.8  318     55   N62&deg;47'04.51" W164&deg;29'15.12" EMMONAK
+MARCC          249    414   N60&deg;11'36.00" W177&deg;53'36.00" MARCC
+BESAT          256     85   N59&deg;45'00.00" E179&deg;25'06.00" BESAT
+NILAR          254    375   N57&deg;11'33.00" E168&deg;30'00.00" NILAR
+BALUB          238     47   N56&deg;47'51.00" E167&deg;14'35.00" BALUB
+MURTA          257    119   N56&deg;22'09.00" E163&deg;43'11.00" MURTA
+UK      410    252     35   N56&deg;13'26.00" E162&deg;41'16.00" UST-KAMCHATSK
+OSMOR          250    203   N55&deg;13'35.00" E156&deg;57'06.00" OSMOR
+TOSNO          243     16   N55&deg;08'13.00" E156&deg;30'47.00" TOSNO
+BANIT          242     53   N54&deg;49'49.00" E155&deg;04'31.00" BANIT
+KORES          247    186   N53&deg;55'24.00" E150&deg;00'00.00" KORES
+GIRAN          241     86   N53&deg;25'49.00" E147&deg;43'00.00" GIRAN
+OLAMA          211     50   N52&deg;48'25.00" E146&deg;47'42.00" OLAMA
+PIRAL          210     66   N51&deg;58'43.00" E145&deg;37'41.00" PIRAL
+BENOK          209     76   N51&deg;00'31.00" E144&deg;19'59.00" BENOK
+EMGOL          208     20   N50&deg;44'49.00" E143&deg;59'47.00" EMGOL
+DITOR          208    119   N49&deg;11'01.00" E142&deg;05'05.00" DITOR
+OLUTA          206     38   N48&deg;40'19.00" E141&deg;30'05.00" OLUTA
+RUTAL          206     35   N48&deg;12'07.00" E140&deg;58'47.00" RUTAL
+TUTIB          205     37   N47&deg;42'07.00" E140&deg;26'17.00" TUTIB
+ODONI          205     43   N47&deg;07'25.00" E139&deg;49'34.00" ODONI
+BULOD          204     27   N46&deg;45'43.00" E139&deg;27'10.00" BULOD
+TUPNA          204      6   N46&deg;40'55.00" E139&deg;22'16.00" TUPNA
+NITIN          204     19   N46&deg;25'07.00" E139&deg;06'16.00" NITIN
+ERONO          204     71   N45&deg;26'25.00" E138&deg;08'22.00" ERONO
+DIRUL          204     45   N44&deg;49'31.00" E137&deg;33'10.00" DIRUL
+ORTEP          203     40   N44&deg;16'31.00" E137&deg;02'28.00" ORTEP
+ASMER          203     52   N43&deg;33'07.00" E136&deg;22'52.00" ASMER
+ODIBA          203     22   N43&deg;14'31.00" E136&deg;06'10.00" ODIBA
+MANIT          203     27   N42&deg;51'54.00" E135&deg;46'16.00" MANIT
+LURED          203     27   N42&deg;29'00.00" E135&deg;26'22.00" LURED
+NULAR          203    106   N40&deg;59'12.00" E134&deg;11'00.00" NULAR
+TONIN          200    113   N39&deg;20'00.00" E133&deg;00'00.00" TONIN
+KANSU          202     49   N38&deg;38'00.00" E132&deg;28'30.00" KANSU
+MALSO          207     53   N37&deg;54'40.00" E131&deg;49'04.00" MALSO
+TENAS          207     20   N37&deg;38'20.00" E131&deg;34'27.00" TENAS
+AGSUS          211     68   N36&deg;45'21.00" E130&deg;40'44.00" AGSUS
+BULGA          212     64   N35&deg;56'09.00" E129&deg;49'24.00" BULGA
+PSN     114    212     63   N35&deg;07'21.00" E128&deg;59'58.00" BUSAN
+TOPAX          222     33   N34&deg;45'55.00" E128&deg;29'52.00" TOPAX
+GOSBO          222     46   N34&deg;15'17.00" E127&deg;47'34.00" GOSBO
+MAKET          221     31   N33&deg;54'52.00" E127&deg;19'53.00" MAKET
+CJU     116.1  221     48   N33&deg;23'04.60" E126&deg;37'26.80" JEJU
+SOSDO          193     24   N33&deg;00'12.00" E126&deg;27'35.00" SOSDO
+SAMLO          193     30   N32&deg;32'23.00" E126&deg;15'36.00" SAMLO
+NIRAT          193     30   N32&deg;03'54.00" E126&deg;03'29.00" NIRAT
+PONIK          249     14   N32&deg;00'21.00" E125&deg;46'59.00" PONIK
+SADLI          249     41   N31&deg;50'00.00" E124&deg;59'54.00" SADLI
+LAMEN          250     53   N31&deg;36'36.00" E124&deg;00'00.00" LAMEN
+AKARA          250     26   N31&deg;30'00.00" E123&deg;30'00.00" AKARA
+ZSPD           251     90   N31&deg;08'42.00" E121&deg;47'36.00" SHANGHAI / PUDONG
+</pre></p>Tracks are magnetic, distances are in nautical miles.<hr>
+<tt><b>KSFO</b> SID <b>RBL</b> J1 <b>OED</b> J501 <b>TOU</b> J523 <b>YZP</b> TR19 <b>FRIED</b> J804R <b>MDO</b> J179 <b>ENM</b> G583 <b>BALUB</b> B804 <b>GIRAN</b> B962 <b>DITOR</b> B233 <b>NULAR</b> B467 <b>TENAS</b> Y579 <b>AGSUS</b> A586 <b>BULGA</b> Y579 <b>PSN</b> A586 <b>TOPAX</b> Y579 <b>GOSBO</b> A586 <b>MAKET</b> Y579 <b>CJU</b> B576 <b>NIRAT</b> A593 <b>AKARA</b> STAR <b>ZSPD</b></tt>
+<hr>
+<a href="javascript:history.back()">[Back]</a>
+</body>
+</html>

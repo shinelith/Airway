@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:tabWidgetStyle">@style/Widget.TabWidget</item>
+        <item name="android:imageButtonStyle">@style/Widget.ImageButton</item>
+
+    </style>
+
+    <style name="Panel">
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="Panel.Light">
+        <item name="android:background">@color/grayBackground</item>
+    </style>
+
+    <style name="Panel.Shardow">
+        <item name="android:background">@drawable/shadow</item>
+    </style>
+
+    <style name="Panel.Shardow.Soild">
+        <item name="android:background">@drawable/shadow_soild</item>
+    </style>
+
+    <style name="Panel.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+        <item name="android:textColorHint">@color/secondaryLightTextColor</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+    </style>
+
+    <style name="Text" />
+
+    <style name="Text.PrimaryText">
+        <item name="android:textColor">@color/primaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="Text.PrimaryText.Light" parent="Text.PrimaryText">
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="Text.SecondaryText">
+        <item name="android:textColor">@color/secondaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="Text.SecondaryText.Light" parent="Text.SecondaryText">
+        <item name="android:textColor">@color/secondaryLightTextColor</item>
+    </style>
+
+    <style name="Text.NavInputText">
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+        <item name="android:textColorHint">@color/secondaryLightTextColor</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Text.Text">
+        <item name="android:textColor">@color/secondaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+    </style>
+
+    <style name="Text.Text.Light" parent="Text.Text">
+        <item name="android:textColor">@color/secondaryLightTextColor</item>
+    </style>
+
+    <style name="Text.HeavyText" parent="Text.Text">
+        <item name="android:textColor">@color/primaryDarkTextColor</item>
+    </style>
+
+    <style name="Text.HeavyText.Light" parent="Text.HeavyText">
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="Text.MicroText">
+        <item name="android:textColor">@color/primaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/microTextSize</item>
+    </style>
+
+    <style name="Text.MicroText.Light" parent="Text.MicroText">
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="Text.RunwayText">
+        <item name="android:textColor">@color/secondaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/runwayNumberTextSize</item>
+    </style>
+
+    <style name="Text.KeyTitle" parent="Text.MicroText">
+        <item name="android:textColor">@color/secondaryDarkTextColor</item>
+        <item name="android:minHeight">@dimen/microTextHeight</item>
+    </style>
+
+    <style name="Text.KeyTitle.Light" parent="Text.KeyTitle">
+        <item name="android:textColor">@color/secondaryLightTextColor</item>
+    </style>
+
+    <style name="CardPrimaryText" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/primaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+        <item name="android:minHeight">@dimen/bigTextHeight</item>
+    </style>
+
+    <style name="CardText" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/secondaryDarkTextColor</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+        <item name="android:minHeight">@dimen/normalTextHeight</item>
+    </style>
+
+    <style name="Widget.ImageButton" parent="@android:style/Widget.Holo.Light.ImageButton">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/image_button_background</item>
+    </style>
+
+    <style name="Widget.CardPrimaryButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.TabWidget" parent="@android:style/Widget.Holo.Light.TabWidget">
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="showDividers">none</item>
+        <item name="divider">@null</item>
+    </style>
+
+</resources>

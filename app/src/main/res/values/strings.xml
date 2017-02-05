@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airway</string>
+    <string name="airport_search_hint">Search airport</string>
+    <string name="nav_departure_hint">Departure</string>
+    <string name="nav_destination_hint">Destination</string>
+    <string name="countries_list_tip">5600 airports in list</string>
+    <string name="card_detail_code">ICAO/IATA</string>
+    <string name="card_detail_runway">RWY</string>
+    <string name="card_detail_ta">TA</string>
+    <string name="card_detail_tl">TL</string>
+    <string name="card_detail_el">EL</string>
+    <string name="card_detail_loc">LOC</string>
+    <string name="card_detail_ils">ILS FREQ</string>
+    <string name="card_detail_hdg">HDG</string>
+    <string name="card_detail_hdgils">HDG/ILS</string>
+    <string name="card_detail_width">WIDTH</string>
+    <string name="card_detail_length">LENGTH</string>
+    <string name="card_detail_gsa">G/S</string>
+    <string name="card_no_network">No Network</string>
+    <string name="card_id">ID</string>
+    <string name="card_frequency">FREQ</string>
+    <string name="card_name">NAME</string>
+    <string name="card_distance">DISTANCE</string>
+    <string name="card_nearby_navaid">Nearby Navigation Aids</string>
+    <string name="card_nearby_airport">Nearby Airport</string>
+    <string name="card_route_way_via">VIA</string>
+    <string name="card_route_way_to">TO</string>
+    <string name="unit_ft">ft</string>
+    <string name="unit_nm">nm</string>
+    <string name="unit_m">m</string>
+    <string name="unit_degree">°</string>
+    <string name="menu_aero_chart_vfr">VFR</string>
+    <string name="menu_aero_chart_ifr">IFR</string>
+    <string name="menu_aero_chart_nevershow">Never show</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="microTextSize">10sp</dimen>
+    <dimen name="microTextHeight">15sp</dimen>
+
+    <dimen name="smallTextSize">14sp</dimen>
+
+    <dimen name="normalTextSize">16sp</dimen>
+    <dimen name="normalTextHeight">19sp</dimen>
+
+    <dimen name="bigTextSize">24sp</dimen>
+    <dimen name="bigTextHeight">34sp</dimen>
+
+    <dimen name="largeTextSize">26sp</dimen>
+
+    <dimen name="inputTextSize">18sp</dimen>
+    <dimen name="runwayNumberTextSize">30sp</dimen>
+
+    <dimen name="cardRunwayNameWidth">80dp</dimen>
+
+    <dimen name="min_height_textheader_materiallike">145dp</dimen>
+    <dimen name="max_height_header">380dp</dimen>
+
+    <dimen name="list_item_padding">4dp</dimen>
+    <dimen name="line">1px</dimen>
+    <dimen name="elevation">6dp</dimen>
+
+    <dimen name="cardLineWidth">1dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_nearby_navaid_id_column_width">40dp</dimen>
+    <dimen name="card_nearby_navaid_frequency_column_width">50dp</dimen>
+</resources>

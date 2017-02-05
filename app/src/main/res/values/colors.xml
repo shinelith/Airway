@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryDarkColor">#3F87F5</color>
+
+    <color name="primaryColor">#3F87F5</color>
+
+    <color name="cardLineColor">#10000000</color>
+
+    <color name="grayBackground">#ececec</color>
+
+    <color name="odd_item_color">#FAFAFA</color>
+
+    <color name="primaryLightTextColor">#FFFFFFFF</color>
+
+    <color name="secondaryLightTextColor">#8AFFFFFF</color>
+
+    <color name="primaryDarkTextColor">#B2000000</color>
+
+    <color name="secondaryDarkTextColor">#7F000000</color>
+
+</resources>

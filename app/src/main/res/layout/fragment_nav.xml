@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/Panel"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:elevation="@dimen/elevation">
+
+        <ImageButton
+            android:id="@+id/btn_swap"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_swap" />
+
+        <ImageButton
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_fly" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toEndOf="@+id/btn_swap"
+            android:src="@drawable/ic_nav" />
+
+        <TextView
+            android:id="@+id/et_departure"
+            style="@style/Text.NavInputText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/image1"
+            android:layout_toStartOf="@id/btn_find"
+            android:editable="false"
+            android:hint="@string/nav_departure_hint"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/split_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/image1"
+            android:layout_toStartOf="@id/btn_find"
+            android:background="#80FFFFFF" />
+
+        <TextView
+            android:id="@+id/et_destination"
+            style="@style/Text.NavInputText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/split_line"
+            android:layout_toEndOf="@+id/image1"
+            android:layout_toStartOf="@id/btn_find"
+            android:editable="false"
+            android:hint="@string/nav_destination_hint"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <it.gmariotti.cardslib.library.view.CardListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+</LinearLayout>

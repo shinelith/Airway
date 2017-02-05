@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">航鹿</string>
+    <string name="airport_search_hint">从所有13000个机场中搜索</string>
+    <string name="nav_departure_hint">出发</string>
+    <string name="nav_destination_hint">到达</string>
+    <string name="countries_list_tip">5600个主要机场</string>
+    <string name="menu_aero_chart_nevershow">不再显示</string>
+    <string name="menu_aero_chart_refresh">刷新</string>
+    <string name="menu_aero_chart_showeb">在浏览器中打开</string>
+    <string name="card_detail_width">宽度</string>
+    <string name="card_detail_tl">过度高度层</string>
+    <string name="card_detail_ta">过度高度</string>
+    <string name="card_detail_runway">跑道</string>
+    <string name="card_detail_loc">位置</string>
+    <string name="card_detail_length">长度</string>
+    <string name="card_detail_ils">频率</string>
+    <string name="card_detail_hdgils">航向/ILS</string>
+    <string name="card_detail_hdg">航向</string>
+    <string name="card_detail_gsa">下滑角</string>
+    <string name="card_detail_el">海拔</string>
+    <string name="card_no_network">无网络连接</string>
+
+</resources>

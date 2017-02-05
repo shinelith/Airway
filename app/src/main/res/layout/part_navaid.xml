@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_padding">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vor_dme" />
+
+    <TextView
+        android:id="@+id/identifier"
+        style="@style/Text.HeavyText"
+        android:layout_width="@dimen/card_nearby_navaid_id_column_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="SMT" />
+
+    <TextView
+        android:id="@+id/frequency"
+        style="@style/Text.Text"
+        android:layout_width="@dimen/card_nearby_navaid_frequency_column_width"
+        android:layout_height="wrap_content"
+        android:text="114.8" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Text.Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="NAME"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/distance"
+            style="@style/Text.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="0" />
+
+        <TextView
+            style="@style/Text.MicroText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/distance"
+            android:layout_toEndOf="@+id/distance"
+            android:text="@string/unit_nm" />
+    </RelativeLayout>
+
+</LinearLayout>

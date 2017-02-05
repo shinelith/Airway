@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:padding="@dimen/card_padding">
+
+
+    <TextView
+        android:id="@+id/card_runway_length"
+        style="@style/CardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="14340ft" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/card_runway_length"
+        android:src="@drawable/ic_runway" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/card_icao"
+            style="@style/CardPrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="VHHH"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/card_iata"
+            style="@style/CardPrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/card_icao"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/card_icao"
+            android:text="HKG"
+            android:textColor="@color/secondaryDarkTextColor" />
+
+        <TextView
+            android:id="@+id/card_airport_name"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/card_icao"
+            android:layout_below="@+id/card_icao"
+            android:text="香港国际机场" />
+
+        <TextView
+            android:id="@+id/card_location"
+            style="@style/CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/card_airport_name"
+            android:layout_below="@+id/card_airport_name"
+            android:text="香港" />
+    </RelativeLayout>
+
+</RelativeLayout>

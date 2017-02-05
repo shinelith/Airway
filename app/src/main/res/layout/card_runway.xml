@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_padding"
+        android:background="#f7f7f7">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:text="07R"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            style="@style/Text.RunwayText" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp">
+
+                <TextView
+                    android:id="@+id/hdgkey"
+                    style="@style/Text.KeyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_detail_hdg" />
+
+                <TextView
+                    android:id="@+id/hdg"
+                    style="@style/Text.PrimaryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/hdgkey"
+                    android:layout_below="@+id/hdgkey"
+                    android:text="073"
+                    android:textSize="@dimen/largeTextSize" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/ils_layout">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp">
+
+                    <TextView
+                        android:id="@+id/key"
+                        style="@style/Text.KeyTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_detail_ils" />
+
+                    <TextView
+                        android:id="@+id/fre"
+                        style="@style/Text.PrimaryText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/key"
+                        android:layout_below="@+id/key"
+                        android:text="109.3"
+                        android:textSize="@dimen/largeTextSize" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/Text.KeyTitle"
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_detail_gsa" />
+
+                    <TextView
+                        style="@style/Text.HeavyText"
+                        android:id="@+id/gsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView2"
+                        android:layout_below="@+id/textView2"
+                        android:text="3" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/key"
+                    style="@style/Text.KeyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_detail_length" />
+
+                <TextView
+                    android:id="@+id/length"
+                    style="@style/Text.HeavyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/key"
+                    android:layout_below="@+id/key"
+                    android:text="12467" />
+
+                <TextView
+                    android:id="@+id/tl_unit"
+                    style="@style/Text.MicroText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/length"
+                    android:layout_toEndOf="@+id/length"
+                    android:text="@string/unit_ft" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/key"
+                    style="@style/Text.KeyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_detail_width" />
+
+                <TextView
+                    android:id="@+id/width"
+                    style="@style/Text.HeavyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/key"
+                    android:layout_below="@+id/key"
+                    android:text="197" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/Text.MicroText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/width"
+                    android:layout_toEndOf="@+id/width"
+                    android:text="@string/unit_ft" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/key"
+                    style="@style/Text.KeyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_detail_el" />
+
+                <TextView
+                    android:id="@+id/el"
+                    style="@style/Text.HeavyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/key"
+                    android:layout_below="@+id/key"
+                    android:text="197" />
+
+                <TextView
+                    style="@style/Text.MicroText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/el"
+                    android:layout_toEndOf="@+id/el"
+                    android:text="@string/unit_ft" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/key"
+                    style="@style/Text.KeyTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_detail_loc" />
+
+                <TextView
+                    android:id="@+id/latitude"
+                    style="@style/Text.MicroText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/key"
+                    android:layout_below="@+id/key"
+                    android:text="N20.4645235" />
+
+                <TextView
+                    android:id="@+id/longitude"
+                    style="@style/Text.MicroText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/key"
+                    android:layout_below="@+id/latitude"
+                    android:text="S114.4564863" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
