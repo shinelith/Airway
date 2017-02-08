@@ -1,6 +1,8 @@
 package com.shinestudio.app.airway;
 
 import android.app.Fragment;
+import android.database.sqlite.SQLiteCantOpenDatabaseException;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +11,11 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.shinestudio.app.airway.card.RouterWayCard;
+import com.shinestudio.app.airway.db.Airport;
+import com.shinestudio.app.airway.db.AirportDao;
+import com.shinestudio.app.airway.db.DaoMaster;
+import com.shinestudio.app.airway.db.DaoSession;
+import com.shinestudio.app.airway.db.DataSource;
 import com.shinestudio.app.airway.extdata.RouterFinderParser;
 
 import org.apache.http.HttpResponse;
@@ -25,15 +32,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import de.greenrobot.dao.query.QueryBuilder;
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
 import it.gmariotti.cardslib.library.view.CardListView;
 
 public class RouterWayFragment extends Fragment {
+    public static final String EXTRA_DEPARTURE = "departureIcao";
+    public static final String EXTRA_DESTINATION = "destinationIcao";
+
     private CardListView cardListView;
     private ArrayList<Card> cards = new ArrayList<Card>();
     private CardArrayAdapter myCardArrayAdapter;
     private MyTask online;
+    private String departureIcao;
+    private String destinationIcao;
 
     public static RouterWayFragment newInstance() {
         RouterWayFragment fragment = new RouterWayFragment();
@@ -52,6 +65,11 @@ public class RouterWayFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        Bundle arguments = getArguments();
+        if (arguments != null) {
+            this.departureIcao = arguments.getString(EXTRA_DEPARTURE);
+            this.destinationIcao = arguments.getString(EXTRA_DESTINATION);
+        }
         online = new MyTask();
         online.execute();
     }
@@ -70,8 +88,8 @@ public class RouterWayFragment extends Fragment {
         private String function2() throws IOException {
             HttpPost post = new HttpPost("http://rfinder.asalink.net/free/autoroute_rtx.php");
             ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
-            params.add(new BasicNameValuePair("id1", "ZBAA"));
-            params.add(new BasicNameValuePair("id2", "ZSSS"));
+            params.add(new BasicNameValuePair("id1", departureIcao));
+            params.add(new BasicNameValuePair("id2", destinationIcao));
             params.add(new BasicNameValuePair("minalt", "FL330"));
             params.add(new BasicNameValuePair("maxalt", "FL330"));
             params.add(new BasicNameValuePair("lvl", "B"));

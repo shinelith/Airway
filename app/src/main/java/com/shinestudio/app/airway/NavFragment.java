@@ -29,15 +29,6 @@ public class NavFragment extends Fragment {
     private ArrayList<Card> cards = new ArrayList<Card>();
     private CardListView cardListView;
     private CardArrayAdapter myCardArrayAdapter;
-
-    public static NavFragment newInstance() {
-        NavFragment fragment = new NavFragment();
-        return fragment;
-    }
-
-    public NavFragment() {
-    }
-
     private View.OnClickListener onSwapClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -52,7 +43,6 @@ public class NavFragment extends Fragment {
             }
         }
     };
-
     private View.OnClickListener onDeptDestOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -63,14 +53,23 @@ public class NavFragment extends Fragment {
             }
         }
     };
-
     private View.OnClickListener onFindClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent i = new Intent(NavFragment.this.getActivity(), RouterActivity.class);
+            i.putExtra(RouterActivity.EXTRA_DEPARTURE, departure.getText());
+            i.putExtra(RouterActivity.EXTRA_DESTINATION, destination.getText());
             NavFragment.this.startActivity(i);
         }
     };
+
+    public NavFragment() {
+    }
+
+    public static NavFragment newInstance() {
+        NavFragment fragment = new NavFragment();
+        return fragment;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

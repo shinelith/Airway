@@ -20,7 +20,7 @@
             android:padding="@dimen/card_padding">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/departureicao"
                 style="@style/Text.PrimaryText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
                 android:text="VHHH" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/destinationicao"
                 style="@style/Text.PrimaryText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,62 +44,62 @@
                 android:src="@drawable/fly_to" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/departureiata"
                 style="@style/Text.Text.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/textView3"
+                android:layout_alignBaseline="@+id/departureicao"
                 android:layout_marginLeft="8dp"
-                android:layout_toEndOf="@+id/textView3"
+                android:layout_toEndOf="@+id/departureicao"
                 android:text="HKG" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/destinationiata"
                 style="@style/Text.Text.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/textView4"
+                android:layout_alignBaseline="@+id/destinationicao"
                 android:layout_marginRight="8dp"
-                android:layout_toStartOf="@+id/textView4"
+                android:layout_toStartOf="@+id/destinationicao"
                 android:text="KUL" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/departurename"
                 style="@style/Text.HeavyText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/textView3"
+                android:layout_below="@+id/departureicao"
                 android:text="Hong Kong Intl" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/destinationname"
                 style="@style/Text.HeavyText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="false"
                 android:layout_alignParentRight="true"
-                android:layout_below="@+id/textView4"
+                android:layout_below="@+id/destinationicao"
                 android:text="Kuala Lumpur Intl" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/departurelocation"
                 style="@style/Text.MicroText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/textView7"
+                android:layout_below="@+id/departurename"
                 android:text="Hong Kong"
                 android:textColor="@color/secondaryLightTextColor" />
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/destinationlocation"
                 style="@style/Text.MicroText.Light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView8"
+                android:layout_alignEnd="@+id/destinationname"
                 android:layout_alignParentRight="true"
-                android:layout_below="@+id/textView8"
+                android:layout_below="@+id/destinationname"
                 android:text="Malaysia"
                 android:textColor="@color/secondaryLightTextColor" />
 
